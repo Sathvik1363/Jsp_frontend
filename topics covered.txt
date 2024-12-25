@@ -1,6 +1,0 @@
-name
-value
-
-radio
-check
-dropdown
