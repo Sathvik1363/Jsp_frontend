@@ -1,0 +1,79 @@
+/*  pseudo-class selector syntax
+selector : pseudo-class{
+    property : value; 
+}
+ 
+*/
+/* a:link{
+    color: green;
+}
+a:visited{
+    color: brown;
+}
+a:active{
+    color: darkturquoise;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    text-decoration: underline;
+    color: darkorange;
+    background-color: dimgray;
+    
+}
+
+#first_form>.button:first-child , #first_form>.button:last-child{
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    font-size: 20px;
+    color: white;
+    background-color: royalblue;
+}
+.button:nth-child(2):active{
+    color: darkorange;
+}
+.button:nth-last-child(2):active{
+    color: darkred;
+}
+.button:nth-last-of-type(even){
+    background-color: red;
+}
+#second_form>.button:first-child , #second_form>.button:last-child{
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    font-size: 20px;
+    color: white;
+    background-color: red;
+} */
+
+input:required{
+    color: red;
+}
+input:read-only{
+    background-color: beige;
+}
+input:disabled{
+    background-color: blue;
+    outline: none;
+    border: none;
+}
+input:checked{
+    /* height:  20px;
+    width: 20px; */
+    transform: scaleX(1.5);
+}
+input:focus{
+    border: 1px solid blue;
+    outline: none;
+}
+input:valid{
+    color: green;
+    border: 1px solid green;
+}
+input:invalid{
+    color: red;
+    border: 1px solid red;
+}

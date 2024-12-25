@@ -1,0 +1,22 @@
+/* @import url("./b.css"); */
+@import "./b.css";
+/* div{
+    height: 50px;
+    background-color: #aabbcc;
+    color: #aabbcc; 
+    if repeating only write once
+    color: #fff;
+    background-color: #000;
+}
+h1{
+    color: aquamarine;
+} */
+p{
+    /* long hand */
+    /* border-width: 10px;
+    border-style: double;
+    border-color: blue; */
+
+    /*short hand */
+    border: 10px solid green ;
+}

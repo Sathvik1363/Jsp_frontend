@@ -1,0 +1,63 @@
+/* combinator */
+/* decandant and child */
+/* div{
+    color: red;
+} */
+/* section div{
+    color: brown;
+} */
+/* div>h1{
+    color: tan;
+}
+
+
+div>p{
+    background-color: t;
+} */
+/* div>section>p{
+    color: blue;
+}
+div>section>h1{
+    color: rgb(120, 120, 231);
+} */
+/* -------------------------------------------- */
+/* div{
+
+    color: red;
+} */
+ /* div p{
+    color:brown
+ } */
+/* div>p{
+    color: chocolate; 
+} */
+/* .parent>p{
+    background-color: blueviolet;
+}
+.mini>p{
+    color: tan;
+}
+.mini p{
+    background-color: chartreuse;
+} */
+ /* ------------------------------------------- */
+ /* sibling */
+ /* adjacent sibling (+)  and general (~) */ 
+ /* div + p{
+    color: blueviolet;
+ }
+ div ~ p{
+    background-color: beige;
+ } */
+
+/* div~p {
+    background-color: brown;
+    color: aqua;
+ } */
+ /* section ~ h1{
+    background-color: aquamarine;
+ }
+ p + p{
+    color: darkorange;
+ } */
+

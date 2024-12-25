@@ -1,0 +1,24 @@
+body{
+    background-color: rgba(0, 255, 255, 0.219);
+    margin: 100px 400px 100px 400px;
+}
+table{
+    background-color: #fff;
+    padding: 10px;
+    border: none;
+}
+tr>td{
+    font-size: 20px;
+    border: 1px solid black;
+    padding: 0 10px 0 10px;
+    text-align: center;
+}
+.f>td:nth-child(3){
+    background-color: green;
+}
+tr:nth-child(4)>td:first-child,tr:nth-child(4)>td:nth-last-child(1){
+    background-color: pink;
+ }
+tr:nth-last-child(3)>td:first-child>span{
+    background-color: pink;
+}

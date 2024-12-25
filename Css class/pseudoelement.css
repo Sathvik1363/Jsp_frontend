@@ -1,0 +1,22 @@
+div p::first-line{
+    color: red;
+}
+div::first-letter{
+    color: aqua;
+}
+div p::before{
+    content: "❤️";
+}
+div p::after{
+    content: "😎";
+}
+div p::selection{
+    color: brown;
+    background-color: yellow;
+}
+ul li::marker{
+    color: red;
+}
+input::placeholder{
+    color: blue;
+}

@@ -1,0 +1,43 @@
+/* tag/element selector */
+/* h1{
+    height: 100px;
+    width: 100px;
+    background-color: red;
+}
+p{
+    color: #999123;
+} */
+/* ------------------------------------------------------------ */
+/* universal selectors */
+/* *{
+    color: red;
+} */
+/* ------------------------------------------------------------- */
+/* group selector*/
+ /* h3 , span , article{
+    color: red;
+ } */
+
+ /* ------------------------------------------------------------ */
+/* class selector */
+div{
+    background-color: aqua;
+}
+.para{
+    background-color: blanchedalmond;
+    color: red;
+}
+
+/* ------------------------------- */
+.col{
+    color: brown;
+}
+.col2{
+    background-color: aquamarine;
+    text-align: center;
+}
+.col3{
+    background-color: #123456;
+    color: #c9b4b4;
+    text-align: end;
+}

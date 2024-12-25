@@ -1,0 +1,30 @@
+/* *{
+    background-color: rgb(100, 162, 255);
+} */
+table , tr , td{
+    border: 2px solid rgba(244, 230, 159, 0.395);
+    font-size: 20px;
+
+}
+table{
+    border-collapse: collapse;
+    width: 650px;
+}
+table tr:first-child{
+    background-color: orange;
+    /* background-color: rgba(245, 215, 119, 0.534); */
+    color: #fff;
+    /* text-align: center; */
+
+}
+/* table tr:first-child:hover{
+    background-color:orange;
+    color: #fff;
+} */
+table tr:nth-child(even){
+    background-color:bisque
+}
+table tr:nth-child(even):hover{
+    background-color: brown;
+    color: white;
+}
