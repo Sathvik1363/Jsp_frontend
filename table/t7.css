@@ -1,0 +1,51 @@
+table{
+    height: 731.67px;
+    width: 655.06px;
+    font: 20px Poppins , sans-serif;
+    border: none;
+}
+img[alt='iphone12'] , img[alt="iphone13"]{
+    height: 112.5px;
+    width: 112.5px;
+    border-radius: 50%;
+    background:none;
+    /* border-color: #112f55; */
+}
+thead{
+    background-color: rgb(240, 95, 120);
+    height: 78px;
+    width: 738px;
+    color: white;
+    font: 20px Poppins, sans-serif ;
+    font-weight: bold;
+    border: transparent;
+    text-align: center;
+}
+thead>tr>td:first-child{
+    width: 189px
+}
+thead>tr>td:nth-child(2) , thead>tr>td:nth-last-child(1){
+    width: 270px
+}
+
+tbody{
+    background-color: rgb(255, 242, 254);
+    /* border: 1px solid rgb(196, 142, 211); */
+    /* border: 1px solid rgb(196, 142, 211); */
+    border: ;
+    color: #112f55;
+    font: 18px Poppins ,sans-serif;
+    font-weight: bold;
+    text-align: center;
+}
+tbody tr:first-child{
+    width: 270px;
+    height: 133px;
+}
+tbody tr>td:first-child{
+    background-color: #efc2d8;
+}
+tbody tr>td:nth-child(2) , tbody tr>td:last-child{
+    font: 15px Poppins , sans-serif;
+    /* font-weight: bold; */
+}

@@ -1,0 +1,33 @@
+.table4{
+    height: 100vh;
+    background: url("https://cdn.pixabay.com/photo/2021/04/13/09/50/road-6175186_1280.jpg") no-repeat bottom center/cover;
+}
+img{
+    height: 100px;
+}
+div{
+    height: 80vh;
+    width: 80vw;
+    margin-left: 110px;
+    margin-top: 50px;
+}
+table{
+    font: 16px Georgia, Serif; color: #fff;
+    border-spacing: 10px 0px;
+    background: linear-gradient(rgba(158, 188, 190, 0.308) , rgba(28, 36, 52, 0.333) );
+    border: none;
+    padding-top: 10px;
+    text-align: center;
+
+}
+tr td{
+    border: transparent;
+}
+thead tr:last-child{
+    font: 24px Georgia, sans-serif;
+
+}
+tbody tr>td:first-child{
+    /* font-size: 24px; */
+    font: 24px Georgia, sans-serif;
+}

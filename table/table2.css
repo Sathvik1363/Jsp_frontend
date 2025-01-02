@@ -1,13 +1,13 @@
-table,tr,td{
+#table2,tr,td{
     border: 2px solid green;
 }
-tr>td{
+#table2 tr>td{
     font-size: 20px;
     padding: 10px;
     text-align: center;
     padding: 10px 40px 10px 40px;
 }
-tr:first-child,tr>td:first-child{
+#table2 tr:first-child,tr>td:first-child{
     background-color: orange;
    font-weight: bold;
    text-align: center;

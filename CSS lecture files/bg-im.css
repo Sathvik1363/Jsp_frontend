@@ -1,0 +1,32 @@
+/* body{
+    margin: 0;
+} */
+div{
+    background: url("https://cdn.pixabay.com/index/2024/12/27/18-22-15-340_1440x550.jpg") ;
+    /* background: url("https://cdn.pixabay.com/photo/2022/03/27/12/46/chongqing-7094955_1280.jpg");  */
+    /* background:url("https://img-c.udemycdn.com/course/240x135/1565838_e54e_18.jpg") no-repeat center/cover; */
+    height: 60vh;
+    /* background-image: linear-gradient(to right top, #100f1000, #4b494b, #706e71, #979599, #e7dede00, #bdbec2, #babcc1, #b8bbbf, #8b8e91, #616465, #3b3d3d, #18191900); */
+    /* background-image: ; */
+    /* background: rgba(25, 27, 38, .64); */
+    background: linear-gradient(black black);
+
+
+    /* background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    font-size: 6rem;
+    background-attachment: fixed; */
+}
+div>img{
+    height: 100px;
+    
+}
+
+p{
+    height: 100vh;
+    /* background-image: linear-gradient(red,blue,black, green); */
+    border: solid;
+    
+}

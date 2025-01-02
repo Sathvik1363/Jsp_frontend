@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Promotion Plans</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .plans {
+            display: flex;
+            justify-content: center;
+            margin-top: 50px;
+        }
+        .plan {
+            background-color: #fff;
+            border: 1px solid #ddd;
+            border-radius: 10px;
+            margin: 10px;
+            padding: 20px;
+            width: 250px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .plan-header {
+            font-size: 24px;
+            margin-bottom: 20px;
+            padding: 10px;
+            border-radius: 10px 10px 0 0;
+            color: #fff;
+        }
+        .plan-header.starter {
+            background-color: #f0ad4e;
+        }
+        .plan-header.advance {
+            background-color: #d9534f;
+        }
+        .plan-header.enterprise {
+            background-color: #5bc0de;
+        }
+        .plan-item {
+            margin: 10px 0;
+        }
+        .plan-item span {
+            display: block;
+            margin-top: 5px;
+        }
+        .plan-item .cost {
+            font-size: 20px;
+            color: #f0ad4e;
+        }
+        .plan-item .cost.advance {
+            color: #d9534f;
+        }
+        .plan-item .cost.enterprise {
+            color: #5bc0de;
+        }
+        .plan-item .check {
+            color: #5cb85c;
+        }
+        .plan-item .cross {
+            color: #d9534f;
+        }
+        .buy-now {
+            display: inline-block;
+            background-color: #d9534f;
+            color: #fff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            text-decoration: none;
+        }
+    </style>
+</head>
+<body>
+    <h1>Promotion Plans</h1>
+    <div class="plans">
+        <div class="plan">
+            <div class="plan-header starter">STARTER</div>
+            <div class="plan-item">1st Month Management Cost<span class="cost">$400</span></div>
+            <div class="plan-item">Following Month<span class="cost">$300</span></div>
+            <div class="plan-item">Delivery Time frame<span>3-6 Months</span></div>
+            <div class="plan-item">Support 24/7<span class="cross">-</span></div>
+            <div class="plan-item">Certificate<span class="cross">-</span></div>
+            <div class="plan-item">Ranking<span>18</span></div>
+            <a href="#" class="buy-now">Buy Now</a>
+        </div>
+        <div class="plan">
+            <div class="plan-header advance">ADVANCE</div>
+            <div class="plan-item">1st Month Management Cost<span class="cost advance">$900</span></div>
+            <div class="plan-item">Following Month<span class="cost advance">$700</span></div>
+            <div class="plan-item">Delivery Time frame<span>3-6 Months</span></div>
+            <div class="plan-item">Support 24/7<span class="check">✔</span></div>
+            <div class="plan-item">Certificate<span class="check">✔</span></div>
+            <div class="plan-item">Ranking<span>20</span></div>
+            <a href="#" class="buy-now">Buy Now</a>
+        </div>
+        <div class="plan">
+            <div class="plan-header enterprise">ENTERPRISE</div>
+            <div class="plan-item">1st Month Management Cost<span class="cost enterprise">$1200</span></div>
+            <div class="plan-item">Following Month<span class="cost enterprise">$900</span></div>
+            <div class="plan-item">Delivery Time frame<span>3-6 Months</span></div>
+            <div class="plan-item">Support 24/7<span class="check">✔</span></div>
+            <div class="plan-item">Certificate<span class="check">✔</span></div>
+            <div class="plan-item">Ranking<span>22</span></div>
+            <a href="#" class="buy-now">Buy Now</a>
+        </div>
+    </div>
+</body>
+</html>

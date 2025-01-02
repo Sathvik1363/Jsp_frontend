@@ -1,5 +1,6 @@
 div p::first-line{
     color: red;
+    /* background-color: bisque; */
 }
 div::first-letter{
     color: aqua;
@@ -14,9 +15,30 @@ div p::selection{
     color: brown;
     background-color: yellow;
 }
+p::selection{
+    background-color: red;
+    color: whea;
+}
 ul li::marker{
     color: red;
 }
 input::placeholder{
     color: blue;
 }
+img{
+    height: 200px;
+    /* mask-image: url("D:\Root\tasks\images\coracle.jpg"); */
+}
+img:hover{
+    content: url("https://cdn.pixabay.com/animation/2023/03/04/23/24/23-24-25-60_512.gif");
+    
+     content: url("https://cdn.pixabay.com/photo/2024/07/25/09/30/animal-8920597_1280.jpg");
+
+     content: url("../tasks/images/coracle.jpg");
+}
+p {
+    animation-duration: 3s;
+    animation-name: slide-in;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+  }

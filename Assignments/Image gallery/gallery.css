@@ -1,0 +1,72 @@
+/* table{
+    width: 90vw;
+}
+img{
+    width: 300px;
+}
+img[alt='trek']{
+    height: 400px;
+}
+img[alt='snow']{
+    height: 400px;
+}
+img[alt='manali']{
+    height: 200px;
+}
+tr > td{
+    border: 5px solid black;
+}
+tr:first-child>td:first-child{
+    heightx : 200px;
+    width: 300px;
+    border: 1px solid rgba(18, 21, 24, 0.468);
+     background: url("https://cdn.pixabay.com/photo/2016/12/30/23/16/manali-1941810_1280.jpg") no-repeat left center/cover;
+    }
+tr:first-child>td:nth-child(2){
+    background: url("https://cdn.pixabay.com/photo/2020/05/22/11/20/manali-5205016_1280.jpg") no-repeat center/cover;
+    height: 300px;
+}
+ */
+ 
+/* div{
+    border: solid;
+    height: 400px;
+    width: 400px;
+} */
+ div{
+    background: linear-gradient(white , rgb(196, 104, 104));
+ }
+ h1{
+    font: 2rem Georgia, sans-serif; 
+    color: #a73232;
+    text-align: center;
+ }
+ h1 sub{
+    font-size: 1rem;
+    color: darkslategray;
+ }
+ img{
+    height: 200px;
+    width: 300px;
+ }
+ img:hover{
+    border-radius: 30px;
+    content: "image gallery";
+    color: black;
+    /* border: 2px solid white; */
+ }
+ img[alt='activities'] , img[alt='church'] , img[alt='samsung']{
+    height: 500px;
+    width: 300px;
+ }
+ img[alt='art']{
+    height: 400px;
+    width: 600px;
+ }
+ img[alt='monk'],  img[alt='glass'], img[alt='cam']{
+    height: 400px;
+ }
+ img[alt='musician'],  img[alt='camera'],  img[alt='stock'], img[alt='hen']{
+    width: 600px;
+    height: 400px;
+ }

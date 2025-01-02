@@ -1,0 +1,54 @@
+body{
+    background-color: rgba(32, 28, 66, 0.95);
+    color: white;
+    /* margin: 0; */
+}
+table{
+    width: 90vw;
+    height: 80vh;
+    /* border: solid ; */
+    /* margin: 0px 150px; */
+    /* padding: 0px 20px; */
+    border: none;
+}
+table>caption{
+    font-size: 3rem;
+    /* margin-top: 20px;
+    margin-bottom: 20px; */
+}
+#ta{
+    color: skyblue;
+}
+#ta::before{
+    content: "<";
+}
+#ta::after{
+    content: ">";
+}
+#res{
+    color: yellow;
+}
+tr>td{
+    width: 22.5vw;
+    /* border-collapse: collapse; */
+    border: none;
+}
+tr>td:hover{
+background-color: yellow;
+border-bottom: 10px ridge yellow;
+border-left: 10px groove yellow;
+color: black;
+}
+tr:first-child{
+    color: rgba(0, 81, 255, 0.842);
+    background-color: transparent;
+}
+/* tr:nth-child(even)>td:first-child ,tr:nth-child(odd)>td:first-child  {
+    color: red;
+} */
+ .com{
+    color: red;
+ }
+ tr:nth-child(even):hover{
+    background-color: grey;
+ }

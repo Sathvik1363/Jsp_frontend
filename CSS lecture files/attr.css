@@ -1,0 +1,13 @@
+img{
+    height: 200px;
+    width: 200px;
+}
+img[alt='car double']{
+    border-radius:50% 0px 0px 50%;
+}
+img[alt="belekan double"]{
+    border-radius:  0px 50% 50% 0px;;
+}
+img[alt~="double"]{
+    border: 2px double red;
+}

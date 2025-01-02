@@ -1,0 +1,10 @@
+#table6{
+    /* border: solid; */
+    /* cellpadding: */
+}
+#table6 tr:first-child{
+    background-color: brown;
+}
+#table6 tr>td{
+    color: rgb(30, 141, 210);
+}
