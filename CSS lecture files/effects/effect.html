@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*
+         div{
+            
+            transition-property: word-spacing;
+            transition-duration: 3s;
+            transition-delay: 1s;
+        } */
+        /* div:hover{
+            background-color: #affdee;
+            height: 200px;
+            width: 200px;
+            margin: auto;
+            word-spacing: 20px;
+        } */
+         *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+         }
+        .imageslider{
+            width: 50%;
+            margin: auto;
+        }
+        .imageslider img{
+            width: 10px;
+            height: 400px;
+            border-radius: 10px;
+            object-fit: cover;
+
+            transition: 2s;
+        }
+        .imageslider img:hover{
+            width: 300px;
+        }
+        button{
+            display: block;
+            text-align: center;
+            margin: auto;
+            border: none;
+            border-radius: 6px;
+            background-color: darkgoldenrod;
+            color: aliceblue;
+            padding: 10px 20px;
+            transition: font-size 2s 1s, font-family 3s 2s , background-color 0s 0s;
+        }
+        button:hover{
+            font-size: 20px;
+            font-family: Georgia, serif;
+            background-color: darkblue;
+        }
+        .bdiv{
+            background-color: tan;
+            height: 600px;
+            border: solid;
+            margin-top: 30px;
+        }
+        .bdiv p{
+            /* margin-top: 30px; */
+            /* border: solid; */
+            margin-top: 40px;
+
+            transition: 2s;
+        }
+        .bdiv p:hover{
+            color: white;
+        }
+
+
+    </style>
+</head>
+<body>
+    <div>Lorem ipsum dolor sit amet.</div>
+    <section>
+        Vinay bhai boltey
+    </section>
+    <section class="imageslider">
+        <img src="https://cdn.pixabay.com/photo/2024/11/17/12/46/flower-9203759_1280.png" alt="">
+        <!-- <img src="https://cdn.pixabay.com/photo/2024/11/17/12/46/flower-9203759_1280.png" alt=""> -->
+        <!-- <img src="https://images.pexels.com/photos/16233277/pexels-photo-16233277/free-photo-of-dog-standing-on-lakeshore.png?auto=compress&cs=tinysrgb&w=600&lazy=load" alt=""> -->
+        <img src="https://images.pexels.com/photos/16233277/pexels-photo-16233277/free-photo-of-dog-standing-on-lakeshore.png?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="">
+        <img src="https://images.pexels.com/photos/29988969/pexels-photo-29988969/free-photo-of-charming-street-view-in-kerala-india.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="">
+    </section>
+    <button>change background-color</button>
+    <div class="bdiv">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nam illo aperiam ipsam rerum a, qui fugiat    </p>
+    </div>
+</body>
+</html>

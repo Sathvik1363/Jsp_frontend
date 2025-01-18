@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img[alt~="drop"]{
+            width: 300px;
+        }
+        img[alt="leave drop"]{
+            background-color: green;
+        }
+        img[alt="leave drop"]:hover{
+            box-shadow: 0px 0px 4px 12px red , 0px 0px 3px 3px gray; 
+            /* display: none; */
+            /* visibility: visible; */                                            
+
+
+            visibility:hidden;
+
+        }
+        img[alt="dog drop"]{
+            /* filter: grayscale(100%); */
+        }
+        img[alt="dog drop"]:hover{
+            filter: drop-shadow(0px 0px 25px chocolate);
+            /* filter: brightness(50%); */
+            /* filter: contrast(20); */
+            /* filter: opacity(50%); */
+            filter: invert(70%);
+            filter:blur(5px);
+           
+
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <img src="../images/img1.png" alt="leave drop">
+        <img src="../images/img2.png" alt="dog drop">
+        <img src="../../car.jpg" alt="car drop">
+    </div>
+</body>
+</html>

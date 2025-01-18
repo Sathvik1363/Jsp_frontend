@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* div{
+            text-align: center;
+            animation-name: sathvik;
+            animation-duration: 3s;
+            animation-iteration-count: infinite;
+        }
+        div h1{
+            animation-name: sathvik;
+        }
+        @keyframes sathvik {
+            from{width: 50vw; background-color: tan;}
+            to{width: 50vw;background-color: brown; margin: auto; }
+
+            0%{letter-spacing: 0px;}
+            100%{letter-spacing: 8px;}
+
+        } */
+         *{
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+         }
+         div{
+            height: 100vh;
+            animation-name: dynamicbackground;
+            animation-duration: 10s;
+            animation-iteration-count: infinite;
+            /* animation-direction: 10s; */
+            animation-timing-function: linear;
+
+         }
+         @keyframes dynamicbackground {
+                0%{
+                    background-image: url("https://cdn.pixabay.com/photo/2021/10/31/16/10/hot-air-balloons-6757939_1280.jpg");
+                    background-repeat: no-repeat;
+                    background-position: center left;
+                    background-size: cover;
+                }   
+                50%{
+                    background-image: url("https://cdn.pixabay.com/photo/2025/01/03/06/55/cortina-dampezzo-9307295_1280.jpg");
+                    background-repeat: no-repeat;
+                    background-position: center top;
+                    background-size: cover;
+                }
+                100%{
+                    background-image: url("https://cdn.pixabay.com/photo/2021/06/14/22/46/milky-way-6337038_1280.jpg");
+                    background-repeat: no-repeat;
+                    background-position: bottom left;
+                    background-size: cover;
+                }
+
+         }
+
+    </style>
+</head>
+<body>
+    <!-- <div>
+        <p>Enjoy the kite frst with incrediable kites </p>
+    </div> -->
+    <div></div>
+</body>
+</html>

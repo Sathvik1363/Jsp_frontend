@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 50%;
+    height: 300px;
+    /* border: solid; */
+    margin: 100px auto;
+    position: relative;
+    /* height: 100%; */
+}
+.main img{
+    display: block;
+    height: 300px;
+    position: absolute;
+    left: 150px;
+    /* width: 50%; */
+}
+img[alt='clouds']{
+    width: 370px;
+    position: absolute;
+    height: 100px;
+    left: 115px;
+    overflow: hidden;
+}
+img[alt='drop']{
+    position: absolute;
+    top: 50px;
+    height: 90px;
+    width: 300px;
+    left: 150px;
+    animation: rain 2s infinite linear;
+    /* object-fit: cover; */
+    /* overflow: hidden; */
+}
+@keyframes rain {
+    0%{
+        transform: scaleY(-5px);
+    }
+    100%{
+        transform: translateY(50px);
+    }
+}

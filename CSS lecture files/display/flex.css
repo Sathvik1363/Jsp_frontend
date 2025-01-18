@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#flex-container{
+    height: 300px;
+    width: 70%;
+    border: solid;
+    display: flex;
+    /* justify-content: center;
+    align-items: center; */
+
+}
+.flex-item{
+    height: 100px;
+    width: 100px;
+    border: solid;
+}

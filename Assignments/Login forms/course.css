@@ -1,0 +1,161 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: OpenSans, Arial, sans-serif;
+}
+.register , .login{
+    width: 500px;
+    background-color: white;
+    margin: 20px auto;
+    /* border: solid; */
+}
+.register .main-container , .login .main-container{
+    margin: 50px;
+}
+.main-container .header{
+    padding: 10px 50px;
+    text-align: center;
+    /* border: solid; */
+    margin: 10px;
+}
+.header h1{
+    font-weight: normal;
+}
+.header p{
+    margin-top: 10px;
+}
+.main-form{
+    margin-top: 20px;
+    /* border: solid; */
+}
+
+.main-form .form-data{
+    margin: 10px 30px;
+    /* border: solid; */
+}
+.label , .input {
+    font-size: 15px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+.form-data .input input{
+    width: 100%;
+    padding: 10px 0px;
+}
+.form-data .input input::placeholder{
+    padding-left: 20px;
+    font-size: 15px;
+}
+input input::placeholder:hover{
+    color: black;
+}
+.input input:hover{
+    background-color: rgba(208, 237, 247, 0.276);
+    border: 1px solid blue;
+}
+.input input:focus{
+    outline: none;
+}
+.label span{
+    display: block;
+    font-size: 12px;
+    font-weight: normal;
+    margin-top: 10px;
+}
+.checkbox{
+    margin-top: 20px;
+}
+
+.checkbox input[type=checkbox]{
+    /*  */
+}
+.checkbox span{
+    font-size: 14px;
+    text-align: center;
+    /* display: inline-block; */
+}
+.btn {
+    margin-top: 30px;
+}
+.btn button{
+    width: 100%;
+    padding: 12px 30px;
+    background-color: rgb(0, 86, 210);
+    color: white;
+    font-weight: bold;
+    border: none;
+    border-radius: 3px;
+}
+.register .line , .login .line{
+    margin-top: 20px;
+    border-bottom: 2px solid lightgray;
+    line-height: .1rem;
+}
+.line span {
+    display: block;
+    text-align: center;
+    background-color: white;
+    padding: 0px 10px;
+}
+.social-container{
+    margin-top: 20px;
+}
+.social-container .social-btn button{
+    width: 100%;
+    padding: 10px 30px;
+    font-size: 15px;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 3px;
+    margin-bottom: 20px;
+}
+.social-btn button span{
+    display: inline-block;
+    margin-right: 30px;
+    /* border: solid; */
+}
+.social-btn button span img{
+    height: 18px;
+    width: 18px;
+}
+.social-container .exixting{
+    text-align: center;
+    font-size: 14px;
+    /* color: rgb(42, 115, 204); */
+}
+.exixting a{
+    color: rgb(42, 115, 204);
+}
+
+.social-container .bottom{
+    margin-top: 20px;
+    border-top: 2px solid lightgray;
+}
+.bottom p{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 15px;
+}
+.bottom p a{
+    /* color: rgb(10, 167, 229); */
+    color: rgb(42, 115, 204);
+}
+.footer{
+    margin-top: 20px;
+    font-size: 12px;
+    text-align: center;
+    /* margin-bottom: 10px; */
+}
+.footer p{
+    margin-bottom: 20px;
+}
+.footer p , .footer p a{
+    color: rgb(97, 97, 97);;
+}
+/* --------------- */
+.forgot a{
+    font-size: 12px;
+}

@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.btn1{
+    border: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    background-color: red;
+    /* display: block; */
+    margin: 10px;
+}
+.btn2{
+    margin-top: 10px;
+    border: none;
+    background: transparent;
+    background-color: rgb(60, 236, 60);
+    padding: 10px 30px;
+    border-radius: 8px;
+    font-size: 20px;
+    margin: 10px;
+
+}
+.btn2:hover{
+    border: 3px solid green;
+
+}
+i{
+    /* border: solid;    */
+    padding-right:10px;
+}
+.btn3{
+    margin-top: 10px;
+    padding: 15px 20px;
+    border: 2px solid green;
+    margin: 10px;
+    border-radius: 4px;
+}
+.btn3:hover{
+    background-color: rgb(4, 116, 36);
+    color: white;
+}

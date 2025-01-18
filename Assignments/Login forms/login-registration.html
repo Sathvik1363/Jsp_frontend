@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Amazon-Login/Registration</title>
+    <link rel="stylesheet" href="./amazon.css" />
+    <link rel="icon" href="" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+      integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+  <body>
+    <!-- Amazon registraion -->
+    <div class="registration">
+      <div class="header-logo">
+        <img src="./image.png" alt="logo" width="100px" />
+      </div>
+      <div class="reg-form">
+        <form action="">
+          <div class="form-container">
+            <h1>Create Account</h1>
+            <div class="name">
+              <label for="name" class="label">Your name</label>
+              <input
+                type="text"
+                class="input-text"
+                id="name"
+                placeholder="First and last name"
+              />
+            </div>
+            <div class="mobile">
+              <label for="mobile" class="label"> Mobile number </label>
+              <div class="mobile-input">
+                <span>
+                  <select name="dropdown-country-code" id="">
+                    <option value="IN">IN +91</option>
+                    <option value="AU">AU +61</option>
+                  </select>
+                </span>
+                <input
+                  type="tel"
+                  class="input-text"
+                  placeholder="Mobile number"
+                />
+              </div>
+              <div class="pwd">
+                <label for="pwd" class="label">Password</label>
+                <input
+                  type="password"
+                  placeholder="At least 6 Characters"
+                  class="input-text"
+                />
+                <div class="alert">
+                  <i class="fa-solid fa-circle-info"></i>
+                  Passwords must be at least 6 characters.
+                </div>
+              </div>
+              <div class="note">
+                To verify your number, we will send you a text message with a
+                temporary code. Message and data rates may apply.
+              </div>
+              <div class="btn-reg">
+                <button type="submit">Verify mobile number</button>
+              </div>
+              <hr />
+              <div class="text">
+                <span class="text-bold"> Buying for work? </span>
+                <div class="text-link">
+                  <a href="#" class="link"> Create a free business account </a>
+                </div>
+              </div>
+              <div class="empty"></div>
+              <div class="existing">
+                Already have an account? <a href="#" class="link">Sign in</a>
+              </div>
+              <div class="legal-text">
+                By creating an account or logging in, you agree to Amazon’s
+                <a href="#" class="link">Conditions of Use</a> and
+                <a href="#" class="link">Privacy Policy</a>
+              </div>
+            </div>
+          </div>
+        </form>
+      </div>
+    </div>
+    <hr>
+    <!-- Amazon login -->
+     <div class="login">
+         <div class="header-logo">
+        <img src="./image.png" alt="logo" width="100px" />
+      </div>
+      <div class="login-form">
+        <form action="">
+            <div class="form-container">
+                <h1>Sign in</h1>
+                <div class="name">
+                    <label for="name" class="label">
+                        Email or mobile phone number
+                    </label>
+                    <input
+                      type="text"
+                      class="input-text"
+                      id="name"
+                      placeholder=""
+                    />
+                  </div>
+                  <div class="btn-reg" id="btn">
+                    <button type="submit">Continue</button>
+                  </div>
+                  <div class="legal">
+                    By creating an account or logging in, you agree to Amazon’s
+                    <a href="#" class="link">Conditions of Use</a> and
+                    <a href="#" class="link">Privacy Policy</a>
+                  </div>
+                  <div class="help">
+                        <a href="#" class="link">Forgot Password</a>
+                        <a href="#" class="link">Other issues with Sign-in</a>
+                  </div>
+                  <hr id="hr">
+                  <div class="text">
+                    <span class="text-bold"> Buying for work? </span>
+                    <div class="text-link">
+                      <a href="#" class="link business" > Shop on Amazon business</a>
+                    </div>
+                  </div>
+            </div>
+        </form>
+        <!-- <p>New to Amazon?</p> -->
+      </div>
+      <p>New to Amazon?</p>
+      <div class="btn">
+        <button>Create your Amazon account</button>
+      </div>
+     </div>
+  </body>
+</html>

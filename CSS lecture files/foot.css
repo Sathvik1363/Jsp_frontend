@@ -1,0 +1,17 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+footer{
+    height: 300px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(40, 39, 39);
+    color: white;
+}
+footer ul li{
+    list-style: none;
+    
+}

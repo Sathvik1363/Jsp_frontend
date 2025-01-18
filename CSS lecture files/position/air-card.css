@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Smooch Sans", serif;
+}
+.card{
+    width: 420px;
+    border: 1px solid lightblue;
+    margin: 10px auto;
+    border-radius: 10px;
+}
+.card-container{
+    margin: 20px;
+    /* border-radius: 10px; */
+    position: relative;
+
+}
+.card-container img{
+    border-radius: 10px;
+}
+.card-container .try{
+    position: absolute;
+    top: 16px;
+    left: 23px;
+    border: none;
+    font-size: 12px;
+    padding: 4px 10px;
+    border-radius: 3px;
+    background: rgba(255, 235, 205, 0.735);
+    color: black;
+    stroke: white;
+    stroke-width: 2px;
+}
+.card-container .best{
+    position: absolute;
+    bottom: 0;
+
+}
+.card-container svg{
+    position: absolute;
+    right: 10px;
+    top:12px;
+    stroke-width:2px;
+    stroke: white;
+    height: 24px;
+    width: 24px;
+    fill: rgba(63, 46, 46, 0.66);
+}
+img{
+    width: 100%;
+}
+.card-content{
+    margin: 20px;
+    line-height: 20px;
+}
+.card-content button{
+    padding: 5px 25px;
+    border: 1px soli;
+}

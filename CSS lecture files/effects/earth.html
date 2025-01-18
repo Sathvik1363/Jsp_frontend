@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      body {
+        /* transition: background-image 5s 2s; */
+      }
+      /* body:hover{
+            background-image: url("https://cdn.pixabay.com/photo/2016/01/27/15/25/space-1164579_1280.png");
+        } */
+      div {
+        width: 50%;
+        margin: 73px auto;
+        transition: background-image 4s 2s;
+        animation
+        /* border:solid; */
+        /* transition-property: background-image;
+            transition-duration: 5s;
+            transition-delay: 2s; */
+      }
+      div:hover {
+        /* background-image: url("https://cdn.pixabay.com/photo/2016/01/27/15/25/space-1164579_1280.png"); */
+        /* width: 100%; */
+        /* height: 100vh; */
+        /* margin: auto; */
+      }
+      div img {
+        width: 200px;
+        height: 200px;
+        margin-left: 100px;
+        /* background: transparent; */
+        /* transition: 1s 1s; */
+        /* object-fit: cover;
+            overflow: hidden; */
+        animation: rotate 10s infinite linear;
+      }
+
+      @keyframes rotate {
+        0% {
+          transform: rotate(0deg);
+        }
+        100%{
+          transform: rotate(360deg);
+        }
+      }
+      div img:hover {
+        /* transform: rotate(360deg); */
+        /* transform: scale(0.1, 1.1); */
+        /* transform: rotatex(360deg); */
+        /* background-image: url("https://cdn.pixabay.com/photo/2016/01/27/15/25/space-1164579_1280.png"); */
+        /* background-image: url("ht.com/5228/5679642883_24a2e905e0_z.jpg"); */
+      }
+    </style>
+  </head>
+  <body>
+    <div>
+      <img src="../images/earth.png" alt="earth" />
+    </div>
+  </body>
+</html>

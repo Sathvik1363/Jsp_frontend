@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: gray;
+}
+.register , .login{
+    width: 350px;
+    margin: 50px auto;
+    background-color: #fff;
+    border-radius: 6px;
+}
+.register .main , .login .main{
+    padding: 20px;
+}
+.register .reg-header , .login .log-header{
+    text-align: center;
+    background-color: #AF3C65;
+    font-size: 22px;
+    border-radius: 3px;
+    box-shadow:  0px 5px 10px #AF3C65;
+    color: white;
+    margin-top: -50px;
+}
+.register .reg-header h4 , .login .log-header h4{
+    padding: 15px 10px;
+    font-weight: normal;
+}
+.main .reg-form form{
+    margin-top: 30px;
+}
+.reg-form .input , .log-header .input{
+    height: 40px;
+    border-bottom: 1px solid rgb(235, 39, 39);
+}
+.reg-form .input input , .log-header .input input{
+    width: 100%;
+    height: inherit;
+    border: none;
+    margin-bottom: 5px;
+    border-bottom: 1px solid lightgray;
+}
+.input input::placeholder{
+    /* font-size: 16px; */
+}
+.reg-form .btn{
+    margin-top: 30px;
+}
+.reg-form .btn button{
+    display: block;
+    margin: auto;
+    background-color: #AF3C65;
+    border: 1px solid #AF3C65;
+    text-transform: uppercase;
+    padding: 8px 50px;
+    color: #ffffffbf;
+    border-radius: 3px;
+}
+.register .social-login{
+    margin-top: 30px;
+}
+.register .social-login .social-container{
+    color: rgb(82, 79, 79);
+    /* color: black; */
+background-color: #fff;
+    border-bottom: 1px solid lightgray;
+    line-height: .1rem;
+}
+.social-container span{
+    text-align: center;
+    display: block;
+    font-weight: 500;
+    background-color: #fff;
+}
+.social-login .social-links {
+    margin-top: 10px;
+    /* border: solid; */
+
+}
+.social-links span{
+    /* display: inline-block; */
+    display: block;
+    width: 100%;
+margin-left: 90px;
+    /* margin: auto; */
+}
+.social-login .social-links span a{
+    border: 1px solid lightgray;
+    padding: 5px 10px 5px 10px;
+    /* margin-left: 30px; */
+    display: inline-block;
+    margin-top: 10px;
+}
+.social-login .another{
+    margin-top: 20px;
+    border-bottom: 1px solid lightgray;
+    padding-bottom: 20px;
+    
+}
+.social-login .another span{
+    display: inline-block;
+    margin-left: 80px;
+}
+.social-login .another span a{
+    color: rgba(0, 0, 0, 0.667);
+    font-size: 14px;
+    font: bold;
+    font-weight: 700;
+    /* border-right: 1px solid black; */
+}
+.another span a:first-child{
+    padding-right: 5px;
+    border-right: 2px solid black;
+}
+.privacy{
+    margin-top: 10px;
+    /* border: solid; */
+    font-size: 13px;
+    padding: 0px 20px;
+    color: gray;
+}
+.privacy p{
+    text-align: center;
+}
+.privacy p a{
+    color: gray;
+}
+
+
+
+
+

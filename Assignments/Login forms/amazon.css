@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Amazon Ember", Arial, sans-serif;
+}
+body{
+    font-size: 14px;
+    line-height: 20px;
+}
+.header-logo img{
+    display: block;
+    margin: 10px auto;
+}
+.reg-form , .login-form{
+    margin: 10px auto;
+    border-radius: 8px;
+    display: block;
+    width: 400px;
+    border: 1px #d5d9d9 solid;
+    /* padding: 2px; */
+}
+.form-container{
+    padding: 14px 18px;
+    /* border: solid; */
+}
+.reg-form .form-container h1 , .login-form .form-container h1{
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 36px;
+    margin-bottom: 8px;
+}
+.form-container .name{
+    margin-bottom: 12px;
+    width: 100%;
+}
+.name .label , .mobile .label{
+    font-weight: 700;
+    display: block;
+    padding-left: 2px;
+    padding-bottom: 2px;
+    font-size: 18px;
+}
+.name input , .pwd input{
+    width: 100%;
+    /* margin-right: 0; */
+    background-color: #fff;
+    height: 31px;
+    padding: 3px 7px;
+    line-height: normal;
+    font-size: 18px;
+    /* margin-bottom: 10px; */
+}
+.input-text{
+    border-color:#888c8c;
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 4px;
+    outline: 0;
+}
+.mobile-input span select{
+    font-size: 16px;
+}
+.mobile-input input{
+    width: 70%;
+    margin-left: 10px;
+    background-color: #fff;
+    height: 31px;
+    padding: 3px 7px;
+    line-height: normal;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+.alert{
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+.fa-solid{
+    padding-right: 5px;
+    /* background-color: blue; */
+}
+.note{
+    font-size: 16px;
+    padding-top: 4px;
+    margin-bottom: 22px;
+}
+.btn-reg{
+    margin-bottom: 30px;
+}
+.btn-reg button{
+    width: 100%;
+    border: none;
+    border-radius: 99px;
+    padding: 10px 6px;
+    background-color: rgb(241, 214, 39);
+    font-size: 15px;
+    /* margin-bottom: 30px; */
+}
+hr{
+    margin-bottom: 14px;
+}
+.text .text-bold{
+    font-size: 16px;
+    font-weight: 700;
+}
+.text .text-link a{
+    font-size: 16px;
+}
+.empty{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    border-top: 2px solid #d5d9d9;
+}
+.existing{
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.legal-text{
+    margin-top: 20px;
+}
+.link{
+    color: #007185;
+    text-decoration: none;
+}
+.link:hover{
+    color: tomato;
+    text-decoration: underline;
+}
+/* ----------------- login form --------------------- */
+.login{
+    margin: 100px auto;
+    height: 100vh;
+    /* width: 400px; */
+    width: 400px;
+}
+.legal{
+    margin-top: 0px;
+}
+#btn{
+    margin-bottom: 10px;
+}
+.help{
+    margin-top: 20px;
+}
+.help .link{
+    font-size: 16px;
+    display: block;
+    margin-top: 10px;
+}
+#hr{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.business{
+    display: block;
+    margin-top: 10px;
+}
+p{
+    margin: 20px 0 0 0;
+    text-align: center;
+}
+.btn{
+    margin-top: 10px;
+}
+.btn button{
+    display: block;
+    margin: 10px auto;
+    width: 100%;
+    border-radius: 99px;
+    font-size: 16px;
+    border: 1px solid gray;
+    padding: 5px 6px;
+}
